@@ -473,9 +473,8 @@
 }
 .footer__contact-border{
     border-left:2px solid #b71b6b;
-    padding: 20px;
-    position:relative;
-    left:50%;
+    padding: 20px 0;
+    display: inline-block;
     margin:30px auto 20px;
 }
 .footer__contact-link{
