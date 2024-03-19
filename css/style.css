@@ -31,7 +31,7 @@
 .firstview{
     width:100vw;
     position:relative;
-    height:535px;
+    height:550px;
 }
 .firstview__img{
     width:60%;
@@ -70,9 +70,14 @@
 }
 
 #news{
-    width:53%;
-    height:470px;
-    margin:120px auto 50px;
+    width:53vw;
+    height: 500px;
+    margin:100px auto 50px;
+}
+@media screen and (max-width:1000px){
+    #news{
+        margin-top:0px;
+    }
 }
 .news__logo{
     color:#b11565;
@@ -102,22 +107,28 @@
 .news__post-item--date{
     color: #6d6d6d;
     list-style:none;
+    width:30vw;
 
 }
 .news__post-item--date span{
     background:#b11565;
     color:#fff;
-    margin-left:35px;
     padding:2px 10px;
     border-radius:10px;
-
+    margin-left: 20px;
+}
+@media screen and (max-width:1000px){
+    .news__post-item--date {
+        font-size:12px;
+    }
 }
 .news__post-item--text{
-    margin-left: 30px;
+    width:50vw
 }
 .news-text{
     text-decoration: none;
     color: #6d6d6d;
+    text-align: left;
 }
 
 #about{
@@ -228,7 +239,8 @@
     height:50%;
 }
 .item2-img {
-    width: 150px;
+    width: 30%;
+    height: 150px;
     margin:25px 10px;
     float:left;
 }
@@ -257,7 +269,8 @@
     height: 50%;
 }
 .item3-img {
-    width: 150px;
+    width: 30%;
+    height:150px;
     margin: 25px 10px;
     float: left;
 }
@@ -336,7 +349,11 @@
     display: flex;
     margin-top: 30px;
     font-size:14px;
-
+}
+@media screen and (max-width:1000px){
+    .card-footer{
+        font-size:10px;
+    }
 }
 .card-footer__date{
 
@@ -362,7 +379,7 @@
 
 #company{
     width:50%;
-    height:600px;
+    height:530px;
     margin:80px auto 0;
 }
 .company__logo{
@@ -459,7 +476,7 @@
     padding: 20px;
     position:relative;
     left:50%;
-    margin:30px auto 50px;
+    margin:30px auto 20px;
 }
 .footer__contact-link{
 }
@@ -473,7 +490,7 @@
     border:1px solid #f71e8b;
     border-radius: 60px;
     box-shadow: 0 10px 0 #840151;
-    padding:25px;
+    padding:28px;
     font-size: 18px;
     text-decoration: none;
     position:relative;
@@ -493,8 +510,8 @@
 .footer__copyright{
     background:#f5f5f5 ;
     text-align: center;
-    margin-top:100px;
-    padding: 25px;
+    margin-top:80px;
+    padding: 22px;
 }
 .copyright-text{
     color: #969696;
